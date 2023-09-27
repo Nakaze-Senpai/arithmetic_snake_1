@@ -529,7 +529,7 @@ public class Easy_game extends AppCompatActivity implements SurfaceHolder.Callba
                     //stop timer/stop moving snake
                     timer.purge();
                     timer.cancel();
-
+                    // Just change
                     //show game over dialog
                     AlertDialog.Builder builder = new AlertDialog.Builder(Easy_game.this);
                     builder.setMessage("Your Score = " + score);
